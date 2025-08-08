@@ -153,3 +153,16 @@ OUTPUT:
 Cost per unit for Drink A: Rs. 2.27<br>Cost per unit for Drink B: Rs. 2.56<br><br>Drink A is the better deal. You save more money per unit.
 
 === Code Execution Successful ===
+
+9)$this = “this”; 
+$that = “that”; 
+$the_other = 2.2000000000;
+print(“$this,$not_set,$that+$the_other”);
+
+output:
+$this = "this"; 
+$that = “that”; 
+$the_other = 2.2000000000;
+print(“$this,$not_set,$that+$the_other”);
+
+=== Code Execution Successful ===
