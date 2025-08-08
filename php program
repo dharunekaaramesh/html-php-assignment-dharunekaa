@@ -441,3 +441,30 @@ output:
 <hr><strong>Transaction 1</strong><br>Deposited: Rs. 500<br>Current Balance: Rs. 1500<br><hr><strong>Transaction 2</strong><br>Deposited: Rs. 500<br>Current Balance: Rs. 2000<br><hr><strong>Transaction 3</strong><br>Deposited: Rs. 500<br>Current Balance: Rs. 2500<br>
 
 === Code Execution Successful ===
+
+18)<?php
+$name = "Dharun";
+$email = null;
+
+if (isset($name)) {
+    echo "Name is set<br>";
+} else {
+    echo "Name is not set<br>";
+}
+
+if (isset($email)) {
+    echo "Email is set<br>";
+} else {
+    echo "Email is not set<br>";
+}
+
+if (isset($phone)) {
+    echo "Phone is set<br>";
+} else {
+    echo "Phone is not set<br>";
+}
+?>
+output:
+Name is set<br>Email is not set<br>Phone is not set<br>
+
+=== Code Execution Successful ===
