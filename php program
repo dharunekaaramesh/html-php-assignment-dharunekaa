@@ -273,3 +273,13 @@ output:
 Marks: 68<br>Grade: Second Class
 
 === Code Execution Successful ===
+
+13)$sub = substr(12345, 2, 2);
+echo "sub is $sub";
+
+output:
+$sub = substr(12345, 2, 2);
+echo "sub is $sub";
+
+
+=== Code Execution Successful ===
