@@ -494,3 +494,29 @@ Highest Value: 89
 Lowest Value: 3
 
 === Code Execution Successful ===
+
+21)<?php
+// Function to check leap year
+function isLeapYear($year) {
+    if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Example usage
+$year = 2024;
+
+if (isLeapYear($year)) {
+    echo "$year is a Leap Year.";
+} else {
+    echo "$year is NOT a Leap Year.";
+}
+?>
+
+output:
+2024 is a Leap Year.
+
+
+=== Code Execution Successful ===
